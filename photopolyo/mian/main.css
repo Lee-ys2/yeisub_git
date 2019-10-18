@@ -1,0 +1,283 @@
+﻿<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link href="https://fonts.googleapis.com/css?family=Lobster&display=swap" rel="stylesheet">
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+
+        html,
+        body {
+            height: 100%;
+            margin: 0;
+            padding: 0;
+        }
+        li {
+            position: relative;
+            list-style: none;
+        }
+        nav > ul{
+            display: inline-block;
+        }
+        
+        nav > ul > li {
+            display: inline-block;
+            
+        }
+        
+        ul ul{
+            display: none;
+            position: absolute;
+            background-color: rgba(201, 189, 189, 0.78);
+            top: 198%;
+            padding: 5px;
+            
+        }
+        
+        nav li:hover > ul {
+            display: block;
+        }
+
+        .main_logo_background {
+            background-color: rgba(201, 189, 189, 0.92);
+            width: 100%;
+            padding: 15PX;
+            position: center;
+            position: fixed;
+
+        }
+
+        .main_logo {
+            font-size: 2.5em;
+            font-family: fantasy;
+            letter-spacing: 1px;
+            text-decoration: none;
+            font-variant: small-caps;
+            text-transform: capitalize;
+            color: white;
+            position: absolute;
+            top: 70%;
+            left: 50%;
+            margin-left: -80px;
+            margin-top: -50px;
+
+        }
+
+        .main_menu {
+            font-size: 20px;
+            font-family: fantasy;
+            text-transform: capitalize;
+            color: white;
+            padding: 10px;
+            padding-bottom: 30px;
+            text-decoration: inherit;
+        }
+
+        .main_pic {
+            background-image: url('../photo/mainpic.jpg');
+            min-height: 100%;
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: cover;
+
+        }
+        .br{
+            height: 150px;
+        }
+        
+        .center_logo{
+            font-size: 9em;
+            font-family: Lobster;
+            letter-spacing: 10px;
+            text-transform: capitalize;
+            color: rgba(75, 75, 75, 0.83);
+            position: absolute;
+            top: 90%;
+            left: 50%;
+            margin-left: -250px;
+        }
+        
+        .wel{
+            font-size: 2em;
+            font-family: sans-serif;
+            letter-spacing: 3px;
+            text-transform: capitalize;
+            margin: 5px;
+            color: rgb(132, 129, 129);
+            position: relative;
+        }
+        
+        .fly{
+            font-size: 3em;
+            font-family: sans-serif;
+            letter-spacing: 3px;
+            text-transform: capitalize;
+            color: black;
+            margin: 10px;
+            position: relative;
+        }
+        
+        .hstory{
+            font-size: 1.5em;
+            font-family: sans-serif;
+            letter-spacing: 3px;
+            text-transform: capitalize;
+            color: orangered;
+            margin: 30px;
+            position: relative;
+        }
+        
+        .hstory_{
+            font-size: 1.2em;
+            font-family:  sans-serif;
+            letter-spacing: 3px;
+            text-transform: capitalize;
+            position: relative;
+            margin: 20px;
+        }        
+
+        .end_font{
+            font-size: 1.2em;
+            font-family:  sans-serif;
+            font: bold;
+            letter-spacing: 3px;
+            text-transform: capitalize;
+            margin: 30px;
+            padding: 50px;
+        }
+
+        #tbtn {
+            width: 50px;
+            height: 50px;
+            background-color: rgba(0, 0, 0, 0.5);
+            color: #fff;
+            text-decoration: none;
+            /*			아랫줄을 지운다*/
+            display: block;
+            /*			블럭요소로 변환시키기*/
+            text-align: center;
+            /*			왼쪽오른쪽 가운데 맞추기 */
+            line-height: 50px;
+            /*			높이는 계산하여 가운데 맞춰야함*/
+            position: fixed;
+            bottom: 50px;
+            right: 10px;
+
+        }
+        
+        #hy_story{
+            width: 95%;
+            
+            height: auto;
+        }
+        
+        .room {
+            width: 450px;
+			height: 600px;
+			margin: 0px;
+            border: 5px solid rgb(129, 122, 122);
+			border-radius: 50%;
+            background-position: center;
+            background-repeat: no-repeat;
+            display: inline-block;
+            font-family: sans-serif;
+            font-size: 2em;
+            color: black;
+            text-decoration: none;  
+		}
+
+        .room_back{
+            width: 100%;
+            height: auto;
+    
+        }
+
+
+        .facility {
+            width: 22%;
+			height: 350px;
+			margin: 5%;
+            border: 5px solid rgb(129, 122, 122);
+			border-radius: 50%;
+            background-position: center;
+            background-repeat: no-repeat;
+            display: inline-block;
+            font-family: sans-serif;
+            font-size: 1.5em;
+            color: black;
+            text-decoration: none;
+            background-size: cover;
+		}
+        
+        #type_a{
+            background-image: url('../photo/type_a.jpg'),
+            url('../photo/type_a2.jpg');
+            margin: 70px;
+            background-position: -100px ,1000px bottom;
+        }
+        #type_a:hover{
+            background-position: -1200px, -200px;
+        }
+        
+        .type_b{
+            background-image: url('../photo/type_b.jpg'),
+            url('../photo/type_b2.jpg');
+            margin: 70px;
+            background-position: -200px ,1000px bottom;
+        }
+        #type_b:hover{
+            background-position: -1000px, -200px;
+        }
+        
+        .bbq{
+            background-image: url('../photo/bbq.jpg');
+        }
+        
+        .pool{
+            background-image: url('../photo/pool.jpg');
+        }
+        
+        .animal{
+            background-image: url('../photo/animal.jpg');   
+        }
+        
+
+        .main_logo {
+            text-shadow:
+                0 0 5px #ccc,
+                0 3px 10px #a7a2a2,
+                2px -5px 15px #3d3,
+                2px -10px 20px #8b9a8b;
+        }
+        
+        #type_a {
+			transition: all 1.5s;
+		}
+        #type_b {
+			transition: all 1.5s;
+		}
+
+        
+
+
+
+
+        @keyframes stripe {
+			50% {
+				background-image: url('../photo/pool.jpg');
+				background-position: center;
+			}
+            100% {
+				background-image: url('../photo/hy_story.jpg');
+				background-position: center;
+			}            
+
+		}
+
+		.main_pic {
+			animation: stripe 8s linear infinite alternate;
+		}
+
+
+
+

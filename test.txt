@@ -1,4 +1,0 @@
-// test 입니다. 
-// Edd text
-// commit
-

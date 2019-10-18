@@ -1,0 +1,155 @@
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link href="https://fonts.googleapis.com/css?family=Lobster&display=swap" rel="stylesheet">
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        html,
+        body {
+            height: 100%;
+            margin: 0;
+            padding: 0;
+        }
+        h2{
+            margin: 0px;
+            margin-bottom: 0px;
+            padding: 10px;
+        }
+        h3{
+            margin: 0px;
+            margin-bottom: 0px;
+            padding: 5px;
+        }
+        li {
+            position: relative;
+            list-style: none;
+        }
+        nav > ul{
+            display: inline-block;
+        }
+        
+        nav > ul > li {
+            display: inline-block;
+            
+        }
+        
+        ul ul{
+            display: none;
+            position: absolute;
+            background-color: rgba(201, 189, 189, 0.78);
+            top: 198%;
+            padding: 5px;
+            
+        }
+        
+        nav li:hover > ul {
+            display: block;
+        }
+
+        .main_logo_background {
+            background-color: rgba(201, 189, 189, 0.92);
+            width: 100%;
+            padding: 15PX;
+            position: center;
+            position: fixed;
+
+        }
+
+        .main_logo {
+            font-size: 2.5em;
+            font-family: fantasy;
+            letter-spacing: 1px;
+            text-decoration: none;
+            font-variant: small-caps;
+            text-transform: capitalize;
+            color: white;
+            position: absolute;
+            top: 70%;
+            left: 50%;
+            margin-left: -80px;
+            margin-top: -50px;
+
+        }
+
+        .main_menu {
+            font-size: 20px;
+            font-family: fantasy;
+            text-transform: capitalize;
+            color: white;
+            padding: 10px;
+            padding-bottom: 30px;
+            text-decoration: inherit;
+        }
+
+        .br{
+            height: 150px;
+        }        
+        
+        .br2{
+            height: 50px;
+        }
+        
+        .wel{
+            font-size: 3em;
+            font-family: sans-serif;
+            letter-spacing: 3px;
+            text-transform: capitalize;
+            margin: 20px;
+            color: rgb(132, 129, 129);
+        }
+        
+        .hstory{
+            font-size: 4em;
+            font-family: sans-serif;
+            letter-spacing: 3px;
+            text-transform: capitalize;
+            color: orangered;
+            margin-top: 10px;
+        }
+        
+        .roomfont{
+            font-size: 1.2em;
+            font-family:  sans-serif;
+            letter-spacing: 3px;
+            text-transform: capitalize;
+            margin: 5px;
+            
+        }        
+
+        .end_font{
+            font-size: 1.2em;
+            font-family:  sans-serif;
+            font: bold;
+            letter-spacing: 3px;
+            text-transform: capitalize;
+            margin: 30px;
+            padding: 50px;
+        }
+
+        #hy_story{
+            width: 95%;
+            height: auto;
+        }
+
+        .main_logo {
+            text-shadow:
+                0 0 5px #ccc,
+                0 3px 10px #a7a2a2,
+                2px -5px 15px #3d3,
+                2px -10px 20px #8b9a8b;
+        }
+        
+        #roompic{
+            width: 45%;
+            height: 550px;
+            margin: 10px;
+        }
+      
+        
+
+
+
+
+
+
